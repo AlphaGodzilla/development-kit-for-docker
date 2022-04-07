@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 
 docker run \
 --name sonarqube \
@@ -7,4 +7,4 @@ docker run \
 -v "$PWD/data":/opt/sonarqube/data \
 -v "$PWD/logs":/opt/sonarqube/logs \
 -v "$PWD/extensions":/opt/sonarqube/extensions \
-sonarqube:9.3-enterprise
+sonarqube:9.3.0-community
