@@ -7,4 +7,5 @@ docker run \
 -v "$PWD/data":/opt/sonarqube/data \
 -v "$PWD/logs":/opt/sonarqube/logs \
 -v "$PWD/extensions":/opt/sonarqube/extensions \
-sonarqube:9.3.0-community
+-d sonarqube:9.3.0-community
+
